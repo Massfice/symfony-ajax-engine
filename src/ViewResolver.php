@@ -39,9 +39,6 @@
 
         $this->content('blank');
 
-        ComparatorMethod::addContainer('ja');
-        ComparatorMethod::addContainer('ja2','ja');
-
     }
 
     public function assign(string $key, $var) : self {
