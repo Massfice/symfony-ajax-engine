@@ -1,5 +1,5 @@
 <?php
-  namespace App\Engine;
+  namespace Massfice\SymfonyAjaxEngine;
 
   use Twig\Loader\FilesystemLoader;
   use Twig\Environment;
