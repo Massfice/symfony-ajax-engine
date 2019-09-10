@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello InitController!{% endblock %}
+
+{% block body %}
+
+  <div id = '0_header'>
+  </div>
+
+  <div id = '1_header'>
+  </div>
+
+  <div id = '2_header'>
+  </div>
+
+  <div id = '3_header'>
+  </div>
+
+  <div id = 'content'>
+  </div>
+
+  <div id = '3_footer'>
+  </div>
+
+  <div id = '2_footer'>
+  </div>
+
+  <div id = '1_footer'>
+  </div>
+
+  <div id = '0_footer'>
+  </div>
+
+{% endblock %}
+
+{% block javascripts %}
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>
+    var action = '{{ action }}';
+    var server_url = '{{app.request.getSchemeAndHttpHost()}}';
+  </script>
+  <script src = "{{asset("js/symfony-ajax-engine.js")}}"></script>
+
+{% endblock %}
