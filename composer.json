@@ -2,19 +2,19 @@
     "name": "massfice/symfony-ajax-engine",
     "description": "Coming soon",
     "type": "library",
-	"licence": "MIT",
-    "require": {
-        "massfice/selecting-view-resolver": "^1.0",
-    },
-	"authors": [
-		{
+	   "licence": "MIT",
+     "require": {
+        "massfice/selecting-view-resolver": "^1.0"
+      },
+	    "authors": [
+        {
             "name": "Massfice",
             "email": "adrian.marian.tomasz.larysz@gmail.com"
         }
-    ],
-    "autoload": {
+      ],
+      "autoload": {
         "psr-4": {
-			"Massfice\\SymfonyAjaxEngine\\": "src/"
+			       "Massfice\\SymfonyAjaxEngine\\": "src/"
         }
-    }
+      }
 }
