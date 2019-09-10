@@ -39,6 +39,8 @@
 
         $this->content('blank');
 
+        UserConfig::config();
+
     }
 
     public function assign(string $key, $var) : self {
